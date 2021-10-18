@@ -1,0 +1,25 @@
+{
+  "name": "with-tailwindcss",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.3.7",
+    "deepmerge": "4.2.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "postcss": "8.3.9",
+    "tailwindcss": "2.2.16"
+  },
+  "dependencies": {
+    "@renderlesskit/react-tailwind": "^0.0.1-alpha.20",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
