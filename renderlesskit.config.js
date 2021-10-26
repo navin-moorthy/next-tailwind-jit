@@ -1,4 +1,4 @@
-import { extendTheme } from '@renderlesskit/react-tailwind';
+import { extendTheme } from "@renderlesskit/react-tailwind";
 
 export const theme = extendTheme({
   // This only affected the Storybook, doesn't go or merge when used this config as preset
@@ -6,12 +6,12 @@ export const theme = extendTheme({
     button: {
       variant: {
         default: {
-          tertiary: 'bg-purple-600 text-white',
+          tertiary: "bg-purple-600 text-white",
         },
       },
       size: {
         default: {
-          xxl: 'h-14 min-w-14 px-6 rounded-xl text-xl',
+          xxl: "h-14 min-w-14 px-6 rounded-xl text-xl",
         },
       },
     },

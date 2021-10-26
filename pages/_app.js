@@ -1,7 +1,7 @@
-import { RenderlesskitProvider } from '@renderlesskit/react-tailwind';
+import { RenderlesskitProvider } from "@renderlesskit/react-tailwind";
 
-import '../styles/index.css';
-import theme from '../renderlesskit.config';
+import "../styles/index.css";
+import theme from "../renderlesskit.config";
 
 function MyApp({ Component, pageProps }) {
   return (
