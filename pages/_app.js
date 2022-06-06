@@ -1,13 +1,13 @@
-import { RenderlesskitProvider } from "@renderlesskit/react-tailwind";
+import { AdaptUIProvider } from "@adaptui/react-tailwind";
 
 import "../styles/index.css";
-import theme from "../renderlesskit.config";
+import theme from "../adaptui.config";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <RenderlesskitProvider extend={theme}>
+    <AdaptUIProvider extend={theme}>
       <Component {...pageProps} />
-    </RenderlesskitProvider>
+    </AdaptUIProvider>
   );
 }
 

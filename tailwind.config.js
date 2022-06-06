@@ -1,11 +1,6 @@
 module.exports = {
-  presets: [require("@renderlesskit/react-tailwind/preset")],
-  content: [
-    "./components/**/*",
-    "./pages/**/*",
-    "./renderlesskit.config.ts",
-    "node_modules/@renderlesskit/react-tailwind/**/*",
-  ],
+  presets: [require("@adaptui/react-tailwind/preset")],
+  content: ["./components/**/*", "./pages/**/*", "./adaptui.config.ts", "node_modules/@adaptui/react-tailwind/**/*"],
   theme: {},
   variants: {},
   plugins: [],

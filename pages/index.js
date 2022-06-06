@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Renderlesskit React Tailwind Example</title>
+        <title>AdaptUI React Tailwind Example</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 

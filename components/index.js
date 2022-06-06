@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { Badge } from "@renderlesskit/react-tailwind";
+import { Badge } from "@adaptui/react-tailwind";
 
 export const BadgeStack = (props) => {
   return (

@@ -1,4 +1,4 @@
-import { extendTheme } from "@renderlesskit/react-tailwind";
+import { extendTheme } from "@adaptui/react-tailwind";
 
 export const theme = extendTheme({
   // This only affected the Storybook, doesn't go or merge when used this config as preset
