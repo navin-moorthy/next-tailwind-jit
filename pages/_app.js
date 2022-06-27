@@ -1,4 +1,4 @@
-import { AdaptUIProvider, SlotIcon } from "@adaptui/react-tailwind";
+import { AdaptUIProvider } from "@adaptui/react-tailwind";
 
 import "../styles/index.css";
 import theme from "../adaptui.config";
