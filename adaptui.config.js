@@ -6,7 +6,7 @@ export const theme = extendTheme({
     button: {
       variant: {
         default: {
-          tertiary: "bg-purple-600 text-white",
+          tertiary: "bg-purple-600 text-white-900",
         },
       },
       size: {
