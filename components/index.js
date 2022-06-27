@@ -7,13 +7,13 @@ export const BadgeStack = (props) => {
     <div className='flex flex-col space-y-4'>
       <div className='flex flex-col space-y-1'>
         <div className='space-x-2'>
-          <Badge {...props} size='sm' variant='solid' themeColor='default'>
+          <Badge {...props} size='sm' variant='solid' themeColor='base'>
             Beta
           </Badge>
-          <Badge {...props} size='sm' variant='subtle' themeColor='default'>
+          <Badge {...props} size='sm' variant='subtle' themeColor='base'>
             Beta
           </Badge>
-          <Badge {...props} size='sm' variant='outline' themeColor='default'>
+          <Badge {...props} size='sm' variant='outline' themeColor='base'>
             Beta
           </Badge>
         </div>
@@ -64,13 +64,13 @@ export const BadgeStack = (props) => {
       </div>
       <div className='flex flex-col space-y-1'>
         <div className='space-x-2'>
-          <Badge {...props} size='md' variant='solid' themeColor='default'>
+          <Badge {...props} size='md' variant='solid' themeColor='base'>
             Beta
           </Badge>
-          <Badge {...props} size='md' variant='subtle' themeColor='default'>
+          <Badge {...props} size='md' variant='subtle' themeColor='base'>
             Beta
           </Badge>
-          <Badge {...props} size='md' variant='outline' themeColor='default'>
+          <Badge {...props} size='md' variant='outline' themeColor='base'>
             Beta
           </Badge>
         </div>
@@ -121,13 +121,13 @@ export const BadgeStack = (props) => {
       </div>
       <div className='flex flex-col space-y-1'>
         <div className='space-x-2'>
-          <Badge {...props} size='lg' variant='solid' themeColor='default'>
+          <Badge {...props} size='lg' variant='solid' themeColor='base'>
             Beta
           </Badge>
-          <Badge {...props} size='lg' variant='subtle' themeColor='default'>
+          <Badge {...props} size='lg' variant='subtle' themeColor='base'>
             Beta
           </Badge>
-          <Badge {...props} size='lg' variant='outline' themeColor='default'>
+          <Badge {...props} size='lg' variant='outline' themeColor='base'>
             Beta
           </Badge>
         </div>
